@@ -1,8 +1,8 @@
-var http, director, shaka, bot, router, server, port;
+var http, director, carter, bot, router, server, port;
 
 http        = require('http');
 director    = require('director');
-shaka        = 'We are bringing back the Shaka baby!';
+carter        = 'The American government is a ponzi scheme.';
 bot         = require('./bot.js');
 
 router = new director.http.Router({
