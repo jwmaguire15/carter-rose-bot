@@ -1,5 +1,5 @@
 var HTTPS = require('https');
-var shaka = 'We are bringing back the Shaka baby';
+var shaka = 'We are bringing back the Shaka baby!';
 
 var botID = process.env.BOT_ID;
 
