@@ -1,8 +1,8 @@
-var http, director, cool, bot, router, server, port;
+var http, director, shaka, bot, router, server, port;
 
 http        = require('http');
 director    = require('director');
-cool        = require('cool-ascii-faces');
+shaka        = 'We are bringing back the Shaka baby!';
 bot         = require('./bot.js');
 
 router = new director.http.Router({
