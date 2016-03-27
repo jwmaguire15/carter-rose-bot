@@ -1,11 +1,11 @@
 var HTTPS = require('https');
-var shaka = 'We are bringing back the Shaka baby!';
+var carter = 'The American government is a ponzi scheme.';
 
 var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\Shaka$/;
+      botRegex = /$Carter?$/;
 
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -21,7 +21,7 @@ function respond() {
 function postMessage() {
   var botResponse, options, body, botReq;
 
-  botResponse = shaka;
+  botResponse = carter;
 
   options = {
     hostname: 'api.groupme.com',
